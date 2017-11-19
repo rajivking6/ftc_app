@@ -143,7 +143,6 @@ public class aStarAlgorithm {
 
         //Set End Location
         setEndCell(ei, ej);
-
         for(int i=0;i<x;++i){
             for(int j=0;j<y;++j){
                 grid[i][j] = new Cell(i, j);
@@ -207,3 +206,4 @@ public class aStarAlgorithm {
         test(1, 5, 5, 0, 0, 4, 4, new int[][]{{3,4},{3,3},{4,3}});
     }
 }
+
